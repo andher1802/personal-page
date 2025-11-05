@@ -1,6 +1,6 @@
 ---
 title: Program Director & Product Owner 'ClicSalud' National Health-Tech App
-date: 2023-10-26
+date: 2016-07-01
 authors:
 - andreshernandez
 links:

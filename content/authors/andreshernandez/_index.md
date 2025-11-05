@@ -57,7 +57,7 @@ interests:
 
 education:
   - area: Ph.D. Geoinformatics (Health AI Focus)
-    institution: University of Cincinnati
+    institution: University of Cincinnati, Cincinnati, OH, USA
     icon: ""
     date_start: 2017-08-01
     date_end: 2020-12-08
@@ -67,8 +67,9 @@ education:
     button:
       text: 'Read Thesis'
       url: 'https://etd.ohiolink.edu/acprod/odb_etd/ws/send_file/send?accession=ucin1613686108382205&disposition=inline'
+
   - area: M.Sc. Biomedical Informatics
-    institution: University of Pittsburgh
+    institution: University of Pittsburgh, Pittsburgh, PA, USA
     icon: ""
     date_start: 2012-08-01
     date_end: 2014-12-08
@@ -79,8 +80,16 @@ education:
       text: 'Read Thesis Paper'
       url: 'https://www.researchprotocols.org/2016/2/e40/PDF'
 
+  - area: Specialization in Project Management
+    institution: Universidad EAN, Bogota D.C., Colombia 
+    icon: ""
+    date_start: 2010-07-01
+    date_end: 2011-08-10
+    summary: |
+      GPA: 92/100
+
   - area: B.Sc. Electronics Engineering
-    institution: Pontificia Universidad Javeriana
+    institution: Pontificia Universidad Javeriana, Bogota D.C., Colombia 
     icon: ""
     date_start: 2002-02-01
     date_end: 2009-09-05
@@ -89,7 +98,7 @@ education:
 
 work:
   - position: Senior data engineer
-    company_name: UP42
+    company_name: UP42, Berlin, Germany.
     company_url: 'https://up42.com/'
     icon: ''
     date_start: 2022-03-01
@@ -99,7 +108,7 @@ work:
       - Single-handedly designed, built, and shipped the [UP42 ArcGIS Pro Add-in](https://docs.up42.com/help/arcgis-addin). Engineered the full-stack product to integrate the entire platform's commercial marketplace (search, AOI selection, purchase) directly into the Esri ecosystem. Selected to present the product's architecture and technical challenges at the 2022 Esri European Developer Summit. 
       - Engineered a novel oblique imagery data product PoC, creating a new backend process (GCP, Kubernetes) to automate 3D reconstruction workflows—a capability the provider's API did not offer. More than 10k euros sold in 9 months.
   - position:  Data & DevOps Consultant
-    company_name: Aegon Netherands, via Alten NL
+    company_name: Aegon Netherands, via Alten NL, The Hague, Netherlands
     company_url: 'https://www.aegon.nl/particulier/'
     icon: ''
     date_start: 2021-06-01
@@ -108,7 +117,7 @@ work:
       - Architected and executed the migration of all non-production CI/CD test pipelines from Azure to AWS, decoupling testing from production environments.
       - This initiative resolved critical platform stability issues, eliminated resource contention, and freed up an estimated 30% of production cluster resources.
   - position: Geospatial Data scientist
-    company_name: University of Twente (ITC)
+    company_name: University of Twente (ITC), Enschede, Netherlands
     company_url: 'https://www.itc.nl/'
     icon: ''
     date_start: 2020-08-01
@@ -117,7 +126,7 @@ work:
       - Operationalized a PhD-level spatiotemporal model (Random Forest) to create a [production-ready forecast](https://www.utwente.nl/en/news/2020/6/671793/check-tick-activity-in-your-area) of tick-borne disease risk for the public-facing ["Tekensignalering" warning app](https://www.tekenradar.nl/home).
       - Engineered the complete data pipeline, performing advanced geospatial interpolation (Kriging, Spline) to create continuous climatic raster surfaces from sparse weather station data.
   - position: Doctoral researcher
-    company_name: University of Cincinnati, College of Arts and Sciences
+    company_name: University of Cincinnati, College of Arts and Sciences, Cincinnati, OH, USA
     company_url: 'https://www.artsci.uc.edu/natural-sciences/geography.html'
     icon: ''
     date_start: 2017-08-01
@@ -127,7 +136,7 @@ work:
       - Research identifying [opioid "hotspots"](https://www.uc.edu/news/articles/2020/03/n20898548.html?fbclid=IwAR2B7wGIu-lLObSCW1zTQIPSGvmeRbt3dwNYSu_50XjDzdyMDbkrq7T_rEo) and [substance use disorder trends](https://www.uc.edu/news/articles/2021/05/uc-opioid-study-identifies-at-risk-populations-in-america.html) was featured in U.S. News & World Report, ScienceDaily, and MedicalXpress.
       - Developed novel spatiotemporal statistical models to merge remote sensing data with terrestrial health metrics, analyzing drivers of epidemics and the opioid crisis.
   - position:  Head of ITC and Health program
-    company_name:  Ministry of ITC - Republic of Colombia
+    company_name:  Ministry of ITC - Republic of Colombia, Bogota D.C., Colombia
     company_url: 'https://mintic.gov.co/portal/inicio/'
     icon: ''
     date_start: 2015-04-01
@@ -138,7 +147,7 @@ work:
       - Served as the primary strategic liaison between the Ministry of ICT, Ministry of Health, and the Presidency, translating high-level policy goals into actionable technology projects.
       - Acted as the national spokesperson for health-tech, presenting strategy to audiences of 1,000+ people, appearing on [national TV](https://youtu.be/-jdWIDBPF0o?t=210), and co-authoring the national plan for telemedicine and EHR interoperability.
   - position:  Research Scholar
-    company_name:  University of Pittsburgh, School of Medicine, Department of Biomedical Informatics
+    company_name:  University of Pittsburgh, School of Medicine, Department of Biomedical Informatics, Pittsburgh, PA, USA
     company_url: 'https://www.dbmi.pitt.edu/'
     icon: ''
     date_start: 2012-08-01

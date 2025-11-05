@@ -7,8 +7,8 @@ main:
   - name: Bio
     url: /
     weight: 10
-  # - name: Papers
-  #   url: /#papers
+  # - name: Publications
+  #   url: publications/
   #   weight: 11
   # - name: Talks
   #   url: /#talks
@@ -22,6 +22,10 @@ main:
   - name: Projects
     url: projects/
     weight: 30
+  - name: Blogs
+    url: blog/
+    weight: 13
   # - name: Courses
   #   url: courses/
   #   weight: 40
+

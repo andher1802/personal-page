@@ -135,8 +135,8 @@ work:
       - Authored/co-authored 4+ first-author papers in high-impact journals, including JAMA Network Open and PLOS ONE, resulting in 181+ career citations.
       - Research identifying [opioid "hotspots"](https://www.uc.edu/news/articles/2020/03/n20898548.html?fbclid=IwAR2B7wGIu-lLObSCW1zTQIPSGvmeRbt3dwNYSu_50XjDzdyMDbkrq7T_rEo) and [substance use disorder trends](https://www.uc.edu/news/articles/2021/05/uc-opioid-study-identifies-at-risk-populations-in-america.html) was featured in U.S. News & World Report, ScienceDaily, and MedicalXpress.
       - Developed novel spatiotemporal statistical models to merge remote sensing data with terrestrial health metrics, analyzing drivers of epidemics and the opioid crisis.
-  - position:  Head of ITC and Health program
-    company_name:  Ministry of ITC - Republic of Colombia, Bogota D.C., Colombia
+  - position:  Head of ICT and Health program
+    company_name:  Ministry of ICT - Republic of Colombia, Bogota D.C., Colombia
     company_url: 'https://mintic.gov.co/portal/inicio/'
     icon: ''
     date_start: 2015-04-01

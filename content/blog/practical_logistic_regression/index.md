@@ -11,7 +11,7 @@ image:
   caption: 'Logistic Regression'
 ---
 
-Welcome back! This post is the direct follow-up to my last article, ["The Logic Behind Logistic Regression."](/blog/blog-logistic-regression/)
+Welcome back! This post is the direct follow-up to my last article, ["The Logic Behind Logistic Regression."](https://andher1802.github.io/personal-page/blog/blog-logistic-regression/)
 
 In that post, we covered the theory. Now, it's time to get our hands dirty.
 

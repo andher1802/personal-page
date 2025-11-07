@@ -67,6 +67,9 @@ input_dataset$Gender <- as.factor(input_dataset$Gender)
 # Set 'Female' as the reference level
 ref_level <- 'Female'
 input_dataset$Gender <- relevel(input_dataset$Gender, ref_level)
+
+# Convert output to factor variable
+input_dataset$Purchased <- as.factor(input_dataset$Purchased)
 ```
 **Quick Exploratory Data Analysis (EDA)**
 
@@ -110,6 +113,7 @@ This is the best part. Building the logistic regression model in R is a single l
 We use the glm() function, which stands for Generalized Linear Model.
 
 ```r
+# Create the logistic regression model
 logistic_classifier <- glm(formula = Purchased ~ Gender + Age + EstimatedSalary,
                            family = 'binomial',
                            data = na.omit(input_dataset))
@@ -123,6 +127,7 @@ logistic_classifier <- glm(formula = Purchased ~ Gender + Age + EstimatedSalary,
 Now, let's see what our model found. We just call summary() on the model we created.
 
 ```r
+# Get the model results
 summary(logistic_classifier)
 ```
 
@@ -150,6 +155,7 @@ The Estimate column is in log-odds, which are hard to understand. We need to con
 We can run this simple code to convert all our coefficients:
 
 ```r
+# See the coefficients in percentage 
 (exp(coef(logistic_classifier)) - 1) * 100
 ```
 

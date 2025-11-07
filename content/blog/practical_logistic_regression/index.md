@@ -196,6 +196,9 @@ And that's it! From just a few lines of R, we were able to:
 
 Please leave a comment if you have any questions!
 
+All code and data can be downloaded from my github blogs dedicated account.
+[logistic regression interpreted](https://github.com/geotechblogs/logistic_regression)
+
 ### References
 
 Most of the content was reviewed in detail from:

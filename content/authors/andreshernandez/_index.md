@@ -34,12 +34,14 @@ role: Senior Data Scientist
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'andresmauricio.hernandezcamacho@gmail.com'
-    label: E-mail Me
+    # url: 'andresmauricio.hernandezcamacho@gmail.com'
+    # label: E-mail Me
   # - icon: brands/x
   #   url: https://twitter.com/AlexAIResearch
   - icon: brands/github
     url: https://github.com/andher1802
+  - icon: brands/github
+    url: https://github.com/geotechblogs
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/andres-hernandez-camacho/
   - icon: academicons/google-scholar

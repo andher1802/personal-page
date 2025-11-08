@@ -264,7 +264,7 @@ def get_locations_by_orgid(
 
 The browser response should be identical, but our code is now better structured for the next step.
 
-### Configuring the Database Connection
+#### Configuring the Database Connection
 It's time to connect our services to the database. We'll create a config module to handle the database connection settings.
 
 ```bash
@@ -286,7 +286,7 @@ session = sessionmaker(bind=engine)
 Base = declarative_base()
 ```
 
-### Defining Models
+#### Defining Models
 To read from our database with SQLAlchemy, we need to define a model that maps to our spatial_data table. We'll create a models folder for this.
 
 ```bash

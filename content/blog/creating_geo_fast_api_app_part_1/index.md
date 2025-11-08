@@ -5,10 +5,13 @@ date: 2025-11-07
 authors:
   - andreshernandez
 tags:
-  - Statistics
-  - Logistic Regression
+  - PostGIS
+  - Docker
+  - Docker-compose
+  - Alembic
+  - Geospatial
 image:
-  caption: 'Logistic Regression'
+  caption: 'Geospatial application part 1'
 ---
 
 ### The Challenge: Beyond a Simple Script

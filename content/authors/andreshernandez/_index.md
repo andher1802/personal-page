@@ -34,8 +34,8 @@ role: Senior Data Scientist
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    # url: 'andresmauricio.hernandezcamacho@gmail.com'
-    # label: E-mail Me
+    url: 'mailto:andresmauricio.hernandezcamacho@gmail.com'
+    label: E-mail Me
   # - icon: brands/x
   #   url: https://twitter.com/AlexAIResearch
   - icon: brands/github
@@ -235,3 +235,5 @@ Organization (WHO) and featured in U.S. News & World Report.
 
 Andres is also a "full-stack" scientist-engineer who designs complex spatiotemporal ML models and deploys them as
 scalable, cloud-native services (GCP, Kubernetes, Docker). Proven leader in healthtech in developing settings and product owner who managed government-level stakeholders and launched a national health-tech application to 20,000+ users in 3 months.
+
+**contact**: [andresmauricio.hernandezcamacho@gmail.com](mailto:andresmauricio.hernandezcamacho@gmail.com)

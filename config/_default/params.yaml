@@ -40,7 +40,7 @@ header:
 # Site footer
 footer:
   copyright:
-    notice: '© {year}'
+    notice: 'Copyright © {year} Andres Hernandez - All Rights Reserved.'
     license:
       enable: true
       allow_derivatives: false

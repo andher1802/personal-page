@@ -6,7 +6,7 @@
 # Website name
 title: Andres Hernandez - Data Scientist
 # Website URL
-baseURL: 'https://andreshernandez.dev/personal-page/'
+baseURL: 'https://andreshernandez.dev/'
 
 ############################
 ## LANGUAGE

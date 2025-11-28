@@ -397,42 +397,6 @@ We have built a powerful ingestion engine using DuckDB and FastAPI, and our Post
 
 In the data world, dbt (data build tool) is the standard for these transformations. In this update, we are containerizing our dbt project and deploying it to our Kubernetes cluster as a Job. This allows us to run heavy geospatial transformations automatically and reliably in the cloud.
 
-1. Dockerizing dbt with Poetry
-Running dbt locally is easy (dbt run). Running it inside a Docker container, especially when managing dependencies with Poetry, requires a bit of finesse.
-
-We created a dedicated Dockerfile for our dbt worker. We faced a specific challenge here: making Poetry play nicely with the system's Python environment so that dbt is executable globally without needing to activate a virtual environment manually inside the container.
-
-
-Here is how we solved it. We disabled virtual environment creation and manually appended the poetry path to PYTHONPATH to ensure Python can find our installed packages:
-
-```Dockerfile
-# Dockerfile
-
-# CRITICAL FIX: Ensure poetry installs into the global path (no venv)
-ENV POETRY_VIRTUALENVS_CREATE=false
-WORKDIR /dbt
-
-# CRITICAL FIX B: Find the Poetry environment's site-packages path 
-# and add it to the global PYTHONPATH.
-RUN export PYTHONPATH="$(poetry env info --path)/lib/python3.11/site-packages:$PYTHONPATH"
-
-# Dynamically generate profiles.yml from environment variables
-RUN echo "config: \n\
-dbt_geospatial_project: \n\
-  target: dev \n\
-  outputs: \n\
-    dev: \n\
-      type: postgres \n\
-      host: \"{{ env_var('DBT_HOST') }}\" \n\
-      user: \"{{ env_var('DBT_USER') }}\" \n\
-      dbname: \"{{ env_var('DBT_NAME') }}\" \n\
-      port: 5432 \n\
-      schema: public \n\
-      threads: 4" > /dbt/profiles.yml
-
-ENTRYPOINT ["dbt"]
-```
-
 Why this matters: This setup allows us to inject database credentials (DBT_HOST, DBT_USER) at runtime via Kubernetes secrets, rather than hardcoding them into a file.
 
 ### 2. Deploying Transformations as Kubernetes Jobs

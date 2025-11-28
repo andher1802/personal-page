@@ -396,9 +396,6 @@ dbt_geospatial_project: \n\
 ENTRYPOINT ["dbt"]
 ```
 
-Blog
-Custom Gem
-Automating Geospatial Analytics: Running dbt on Kubernetes with Helm
 We have built a powerful ingestion engine using DuckDB and FastAPI, and our PostGIS database is filling up with raw building footprint data. But raw data is rarely ready for analysis. It needs to be cleaned, transformed, and aggregated.
 
 In the data world, dbt (data build tool) is the standard for these transformations. In this update, we are containerizing our dbt project and deploying it to our Kubernetes cluster as a Job. This allows us to run heavy geospatial transformations automatically and reliably in the cloud.

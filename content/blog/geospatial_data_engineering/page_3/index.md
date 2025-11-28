@@ -357,9 +357,6 @@ models:
 We have successfully integrated dbt into our geospatial stack! We now have a structured way to transform raw data into enriched, analytical-ready tables using standard SQL and PostGIS.
 
 ## Automating Geospatial Analytics: Running dbt on Kubernetes with Helm
-We have built a powerful ingestion engine using DuckDB and FastAPI, and our PostGIS database is filling up with raw building footprint data. But raw data is rarely ready for analysis. It needs to be cleaned, transformed, and aggregated.
-
-In the data world, dbt (data build tool) is the standard for these transformations. In this update, we are containerizing our dbt project and deploying it to our Kubernetes cluster as a Job. This allows us to run heavy geospatial transformations automatically and reliably in the cloud.
 
 ### 1. Dockerizing dbt with Poetry
 Running dbt locally is easy (dbt run). Running it inside a Docker container, especially when managing dependencies with Poetry, requires a bit of finesse.
